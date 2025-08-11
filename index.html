@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+  <link rel="stylesheet" href="style.css" />
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+  <title>Portfolio Website</title>
+</head>
+
+<body>
+  <!--=============== HEADER ===============-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="index.html" class="nav__logo">M<span>S</span>H</a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list grid">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#activities" class="nav__link">Activities</a>
+          </li>
+          <li class="nav__item">
+            <a href="#portfolio" class="nav__link">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+        <div class="nav__close" id="nav-close">
+          <i class="ui uil-times"></i>
+        </div>
+      </div>
+       <!-- <div class="nav__socials">
+          <a href="https://www.facebook.com/shawon.kst.1" target="_blank" class="nav__social"><i class="uil uil-facebook-f"></i></a>
+          <a href="https://www.instagram.com/sadmanshawon/" target="_blank" class="nav__social"><i class="uil uil-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/sadman-shawon-123456789/" target="_blank" class="nav__social"><i
+              class="uil uil-linkedin"></i></a>
+          <a href="https://github.com/sadmanshawon" target="_blank" class="nav__social"><i
+              class="uil uil-github"></i></a>
+        </div> -->
+        <div class="nav__btns">
+          <a href="#contact" class="nav__link-btn btn">Lets Talk</a>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-bars"></i>
+          </div>
+        </div>
+    </nav>
+  </header>
+
+  <!--=============== MAIN ===============-->
+  <main class="main">
+    <!--=============== HOME ===============-->
+    <section class="home" id="home">
+        <!-- Floating Particles -->
+        <div class="particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+
+        <div class="home__container container grid">
+            <div class="home__content">
+                <span class="home__subtitle">Welcome To My World</span>
+                <h1 class="home__title">
+                    Hi, I'm Shawon <span data-text="JS Developer.">JS Developer.</span><br />
+                    Based in USA
+                </h1>
+                <p class="home__description">
+                    Passionate JavaScript developer crafting digital experiences with modern technologies. 
+                    I transform ideas into interactive, user-friendly applications that make a difference.
+                </p>
+                
+                <div class="home__buttons">
+                    <a href="#contact" class="btn">Get In Touch</a>
+                    <a href="#portfolio" class="btn btn--outline">View My Work</a>
+                </div>
+                
+                <div class="home__socials">
+                    <a href="https://github.com/shawonkst21" class="home__social">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sadman-shawon-76953828b/" class="home__social">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="home__social">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="home__social">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="home__image-container">
+                <img src="img/shawon.png" alt="Shawon - JS Developer" class="home__img" />
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-arrow-down"></i>
+        </div>
+    </section>
+
+    <!--=============== ABOUT ===============-->
+   <section class="about section" id="about">
+        <div class="about__container container">
+            <h2 class="section__title">About Me</h2>
+            
+            <p class="about__description">
+                I'm a passionate software engineer with a love for creating innovative digital solutions. 
+                With expertise in modern web technologies and a keen eye for user experience, I transform 
+                complex problems into elegant, scalable applications that make a real impact.
+            </p>
+
+            <!-- Quick Stats -->
+            <div class="about__stats">
+                <div class="stat__item">
+                    <span class="stat__number">3/1</span>
+                    <span class="stat__label">Student</span>
+                </div>
+                <div class="stat__item">
+                    <span class="stat__number">7+</span>
+                    <span class="stat__label">Projects Completed</span>
+                </div>
+                <div class="stat__item">
+                    <span class="stat__number">1k+</span>
+                    <span class="stat__label">problem solved</span>
+                </div>
+                <div class="stat__item">
+                    <span class="stat__number">15+</span>
+                    <span class="stat__label">Technologies</span>
+                </div>
+            </div>
+
+            <!-- Enhanced Tabs -->
+            <div class="tabs__btns">
+                <span class="tabs_btn tab__active" data-target="#skills">
+                    <i class="fas fa-code"></i> Skills
+                </span>
+                <span class="tabs_btn" data-target="#experience">
+                    <i class="fas fa-briefcase"></i> Experience
+                </span>
+                <span class="tabs_btn" data-target="#education">
+                    <i class="fas fa-graduation-cap"></i> Education
+                </span>
+                <span class="tabs_btn" data-target="#awards">
+                    <i class="fas fa-trophy"></i> Achievements
+                </span>
+            </div>
+
+            <div class="tabs_content">
+                <!-- Skills Tab -->
+                <div class="tab__item tab__active" data-content id="skills">
+                    <div class="tabs__data">
+                        <div class="skills__grid">
+                            <div class="skill__category">
+                                <h3 class="skill__title">
+                                    <i class="fab fa-js-square"></i>
+                                    Frontend Development
+                                </h3>
+                                <div class="skill__list">
+                                    <span class="skill__tag">JavaScript</span>
+                                    <span class="skill__tag">React.js</span>
+                                    <span class="skill__tag">Vue.js</span>
+                                    <span class="skill__tag">TypeScript</span>
+                                    <span class="skill__tag">HTML5</span>
+                                    <span class="skill__tag">CSS3</span>
+                                    <span class="skill__tag">Sass</span>
+                                    <span class="skill__tag">Tailwind CSS</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skill__category">
+                                <h3 class="skill__title">
+                                    <i class="fas fa-server"></i>
+                                    Backend Development
+                                </h3>
+                                <div class="skill__list">
+                                    <span class="skill__tag">Node.js</span>
+                                    <span class="skill__tag">Express.js</span>
+                                    <span class="skill__tag">MongoDB</span>
+                                    <span class="skill__tag">PostgreSQL</span>
+                                    <span class="skill__tag">REST APIs</span>
+                                    <span class="skill__tag">GraphQL</span>
+                                    <span class="skill__tag">JWT</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skill__category">
+                                <h3 class="skill__title">
+                                    <i class="fas fa-tools"></i>
+                                    Tools & Technologies
+                                </h3>
+                                <div class="skill__list">
+                                    <span class="skill__tag">Git & GitHub</span>
+                                    <span class="skill__tag">Docker</span>
+                                    <span class="skill__tag">AWS</span>
+                                    <span class="skill__tag">Webpack</span>
+                                    <span class="skill__tag">Jest</span>
+                                    <span class="skill__tag">Figma</span>
+                                    <span class="skill__tag">VS Code</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skill__category">
+                                <h3 class="skill__title">
+                                    <i class="fas fa-lightbulb"></i>
+                                    Soft Skills
+                                </h3>
+                                <div class="skill__list">
+                                    <span class="skill__tag">Problem Solving</span>
+                                    <span class="skill__tag">Team Leadership</span>
+                                    <span class="skill__tag">Communication</span>
+                                    <span class="skill__tag">Project Management</span>
+                                    <span class="skill__tag">Agile/Scrum</span>
+                                    <span class="skill__tag">Code Review</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Tab -->
+                <div class="tab__item" data-content id="experience">
+                    <div class="tabs__data">
+                        <div class="experience__timeline">
+                            <div class="experience__item">
+                                <span class="experience__date">2025 - Present</span>
+                                <h3 class="experience__title">App developer</h3>
+                                <p class="experience__company">None</p>
+                                <p class="experience__description">
+                                    Leading frontend development for enterprise applications, mentoring junior developers, 
+                                    and implementing modern React.js solutions that improved user engagement by 40%.
+                                </p>
+                            </div>
+                            
+                            <div class="experience__item">
+                                <span class="experience__date">2022 - 2023</span>
+                                <h3 class="experience__title">Full Stack Developer</h3>
+                                <p class="experience__company">Digital Innovations LLC</p>
+                                <p class="experience__description">
+                                    Developed and maintained multiple web applications using MERN stack, 
+                                    integrated third-party APIs, and optimized database performance.
+                                </p>
+                            </div>
+                            
+                            <div class="experience__item">
+                                <span class="experience__date">2021 - 2022</span>
+                                <h3 class="experience__title">Junior JavaScript Developer</h3>
+                                <p class="experience__company">StartUp Hub</p>
+                                <p class="experience__description">
+                                    Built responsive web interfaces, collaborated with design teams, 
+                                    and contributed to open-source projects while learning industry best practices.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education Tab -->
+                <div class="tab__item" data-content id="education">
+                    <div class="tabs__data">
+                        <div class="education__grid">
+                            <div class="education__card">
+                                <i class="education__icon fas fa-university"></i>
+                                <h3 class="education__degree">Bachelor's in Software Engineering</h3>
+                                <p class="education__institution">shahjalal university of science and Technology</p>
+                                <span class="education__year">2022 - 2026</span>
+                            </div>
+                            
+                            <div class="education__card">
+                                <i class="education__icon fas fa-mobile-alt" aria-hidden="true"></i>
+                                <h3 class="education__degree">APP development Using flutter</h3>
+                                <p class="education__institution">Ostad online platfrom</p>
+                                <span class="education__year">2024</span>
+                            </div>
+                            
+                            <div class="education__card">
+                                <i class="education__icon fab fa-react"></i>
+                                <h3 class="education__degree">React Developer Certification</h3>
+                                <p class="education__institution">Meta (Facebook)</p>
+                                <span class="education__year">2022</span>
+                            </div>
+                            
+                            <div class="education__card">
+                                <i class="education__icon fas fa-code-branch"></i>
+                                <h3 class="education__degree">Full Stack Web Development</h3>
+                                <p class="education__institution">freeCodeCamp</p>
+                                <span class="education__year">2021</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Awards Tab -->
+                <div class="tab__item" data-content id="awards">
+                    <div class="tabs__data">
+                        <div class="awards__grid">
+                            <div class="award__item">
+                                <i class="award__icon fas fa-trophy"></i>
+                                <h3 class="award__title">Nasa space app 2nd RunnerUP</h3>
+                                <p class="award__description">
+                                    Recognized for outstanding contribution to web development and innovation
+                                </p>
+                            </div>
+                            
+                            <div class="award__item">
+                                <i class="award__icon fas fa-medal"></i>
+                                <h3 class="award__title">Best UI/UX Implementation</h3>
+                                <p class="award__description">
+                                    Awarded for creating exceptional user experiences in enterprise applications
+                                </p>
+                            </div>
+                            
+                            <div class="award__item">
+                                <i class="award__icon fas fa-star"></i>
+                                <h3 class="award__title">Innovation Excellence</h3>
+                                <p class="award__description">
+                                    Recognized for implementing cutting-edge solutions that improved system efficiency
+                                </p>
+                            </div>
+                            
+                            <div class="award__item">
+                                <i class="award__icon fas fa-users"></i>
+                                <h3 class="award__title">Team Leadership Award</h3>
+                                <p class="award__description">
+                                    Acknowledged for successfully leading cross-functional development teams
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--=============== Activites ===============-->
+     <section class="activities section" id="activities">
+        <h2 class="section__title">My Activities & Skills</h2>
+        <p class="section__description">
+            As a Software Engineering student, I'm passionate about exploring various aspects of technology and creative expression.
+        </p>
+        
+        <div class="activities__container container grid">
+            <div class="activities__item">
+                <span class="activities__badge">Core</span>
+                <i class="uil uil-code-branch activities__icon"></i>
+                <h3 class="activities__title">Software Engineering</h3>
+                <p class="activities__description">Currently pursuing my degree in Software Engineering, learning programming fundamentals, software design patterns, and development methodologies.</p>
+            </div>
+
+            <div class="activities__item">
+                <span class="activities__badge">Full stack</span>
+                <i class="uil uil-browser activities__icon"></i>
+                <h3 class="activities__title">Web Development</h3>
+                <p class="activities__description">Building responsive and interactive websites using modern technologies like HTML, CSS, JavaScript, and various frameworks.</p>
+            </div>
+
+            <div class="activities__item">
+                <span class="activities__badge">Logic</span>
+                <i class="uil uil-puzzle-piece activities__icon"></i>
+                <h3 class="activities__title">Problem Solving</h3>
+                <p class="activities__description">Developing analytical thinking and algorithmic problem-solving skills through coding challenges, data structures, and algorithms.</p>
+            </div>
+
+            <div class="activities__item">
+                <span class="activities__badge">Mobile</span>
+                <i class="uil uil-mobile-android activities__icon"></i>
+                <h3 class="activities__title">App Development</h3>
+                <p class="activities__description">Creating mobile applications for Android and iOS platforms, focusing on user experience and cross-platform compatibility.</p>
+            </div>
+
+            <div class="activities__item">
+                <span class="activities__badge">Creative</span>
+                <i class="uil uil-camera activities__icon"></i>
+                <h3 class="activities__title">Photography</h3>
+                <p class="activities__description">Capturing moments and expressing creativity through photography, combining technical skills with artistic vision.</p>
+            </div>
+
+            <div class="activities__item">
+                <span class="activities__badge">AI/ML</span>
+                <i class="uil uil-brain activities__icon"></i>
+                <h3 class="activities__title">Machine Learning Basics</h3>
+                <p class="activities__description">Exploring the fundamentals of machine learning, including data analysis, pattern recognition, and basic AI algorithms.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--=============== projects ===============-->
+       <!-- <section class="portfolio section" id="portfolio">
+        <div class="container">
+            <h2 class="section__title">My Latest Projects</h2>
+            <p class="section__description">
+                Here are some of the recent projects I've worked on, showcasing my skills in web development, UI/UX design, and creative solutions.
+            </p>
+            
+            <div class="portfolio__container">
+                <div class="portfolio__item">
+                    <img src="img/app2.jpg" alt="Web Development Project" class="portfolio__img">
+                    <div class="portfolio__overlay"></div>
+                    <div class="portfolio__badge">APP</div>
+                    <div class="portfolio__content">
+                        <p class="portfolio__subtitle">Mobile APP</p>
+                        <h3 class="portfolio__title">LifeDrop-flutter</h3>
+                        <p class="portfolio__description">
+                            Modern e-commerce solution with responsive design and seamless user experience built with React and Node.js.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="portfolio__item">
+                    <img src="img/photography.jpg" alt="Photography Project" class="portfolio__img">
+                    <div class="portfolio__overlay"></div>
+                    <div class="portfolio__badge">Photo</div>
+                    <div class="portfolio__content">
+                        <p class="portfolio__subtitle">Nature</p>
+                        <h3 class="portfolio__title">Photography</h3>
+                        <p class="portfolio__description">
+                            Creative photography portfolio showcasing artistic vision and technical expertise in various lighting conditions.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="portfolio__item">
+                    <img src="img/web.png" alt="Mobile App Design" class="portfolio__img">
+                    <div class="portfolio__overlay"></div>
+                    <div class="portfolio__badge">WEB</div>
+                    <div class="portfolio__content">
+                        <p class="portfolio__subtitle">Development</p>
+                        <h3 class="portfolio__title">WEB Design</h3>
+                        <p class="portfolio__description">
+                            Intuitive mobile application design with modern interface, smooth animations, and user-centered approach.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="portfolio__item">
+                    <img src="img/initial.png" alt="Brand Identity Project" class="portfolio__img">
+                    <div class="portfolio__overlay"></div>
+                    <div class="portfolio__badge">Game</div>
+                    <div class="portfolio__content">
+                        <p class="portfolio__subtitle">Development</p>
+                        <h3 class="portfolio__title">Brand Identity</h3>
+                        <p class="portfolio__description">
+                            Complete brand identity design including logo design, color schemes, and comprehensive brand guidelines.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="portfolio__item">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop" alt="Data Analytics Dashboard" class="portfolio__img">
+                    <div class="portfolio__overlay"></div>
+                    <div class="portfolio__badge">Data</div>
+                    <div class="portfolio__content">
+                        <p class="portfolio__subtitle">Development</p>
+                        <h3 class="portfolio__title">Analytics Dashboard</h3>
+                        <p class="portfolio__description">
+                            Interactive data visualization dashboard with real-time analytics, custom charts, and business insights.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="portfolio__item">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=400&fit=crop" alt="SaaS Platform" class="portfolio__img">
+                    <div class="portfolio__overlay"></div>
+                    <div class="portfolio__badge">SaaS</div>
+                    <div class="portfolio__content">
+                        <p class="portfolio__subtitle">Development</p>
+                        <h3 class="portfolio__title">WEB Design</h3>
+                        <p class="portfolio__description">
+                            Scalable software-as-a-service platform with advanced features, API integrations, and cloud architecture.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section__title">My Latest Project</h2>
+      <p class="section__description">
+        Here are some of the recent projects I've worked on, showcasing my skills in web development, UI/UX design.
+      </p>
+      <div class="protfolio__container container grid">
+        <div class="protfolio__item">
+          <img src="img/app3.jpg" alt="" class="protfolio__img">
+          <div class="protfolio__data">
+            <p class="protfolio__subtitle">
+              Development
+            </p>
+            <h3 class="protfolio__title">WEB Design</h3>
+            <p class="protfolio__description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div class="protfolio__item">
+          <img src="img/portfolio-2.jpg" alt="" class="protfolio__img">
+          <div class="protfolio__data">
+            <p class="protfolio__subtitle">
+              Development
+            </p>
+            <h3 class="protfolio__title">WEB Design</h3>
+            <p class="protfolio__description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div class="protfolio__item">
+          <img src="img/java.png" alt="" class="protfolio__img">
+          <div class="protfolio__data">
+            <p class="protfolio__subtitle">
+              Development
+            </p>
+            <h3 class="protfolio__title">WEB Design</h3>
+            <p class="protfolio__description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div class="protfolio__item">
+          <img src="img/portfolio-4.jpg" alt="" class="protfolio__img">
+          <div class="protfolio__data">
+            <p class="protfolio__subtitle">
+              Development
+            </p>
+            <h3 class="protfolio__title">WEB Design</h3>
+            <p class="protfolio__description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+         <div class="protfolio__item">
+          <img src="img/photography.jpg" alt="" class="protfolio__img">
+          <div class="protfolio__data">
+            <p class="protfolio__subtitle">
+              Development
+            </p>
+            <h3 class="protfolio__title">Photography</h3>
+            <p class="protfolio__description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div class="protfolio__item">
+          <img src="img/game.png" alt="" class="protfolio__img">
+          <div class="protfolio__data">
+            <p class="protfolio__subtitle">
+              Development
+            </p>
+            <h3 class="protfolio__title">WEB Design</h3>
+            <p class="protfolio__description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== CONTACT ===============-->
+    <section class="contact section" id="contact">
+      <div class="contact__container container grid">
+        <div class="contact__content">
+          <h2 class="section__title">Contact</h2>
+          <p class="contact__description">
+            If you have any questions or inquiries, feel free to reach out to me through the form below.
+            <a href="tel:+01783434280">01783434280</a> or email: <a
+              href="mailto:sadmanshawonkst11@gmail.com">sadmanshawonkst11@gmail.com</a>
+          </p>
+          <form class="contact__form" id="contact-form">
+            <div class="contact__form-input">
+              <input type="text" name="name" placeholder="Your Name*" class="contact__input" id="contact-name" />
+            </div>
+
+            <div class="contact__form-input">
+              <input type="email" name="email" placeholder="Your Email" class="contact__input" id="contact-email" />
+            </div>
+
+            <div class="contact__form-input">
+              <input type="text" name="subject" placeholder="write a subject" class="contact__input"
+                id="contact-subject" />
+            </div>
+
+            <div class="contact__form-input">
+              <textarea name="message" id="contact-message" placeholder="Your Message*"
+                class="contact__input textarea"></textarea>
+            </div>
+            <input type="submit" value="submit" class="btn" />
+            <p class="error__message" id="error-message">Error</p>
+          </form>
+        </div>
+        <img src="img/shawon.jpg" alt="">
+
+      </div>
+    </section>
+  </main>
+
+  <!--=============== FOOTER ===============-->
+  <footer class="footer">
+    <div class="footer__container container grid">
+      <a href="index.html" class="footer__logo">sh<span>aw</span>on</a>
+      <div class="footer__socials">
+        <a href="https://www.facebook.com/shawon.kst.1" class="footer__social"><i class="uil uil-facebook-f"></i></a>
+        <a href="https://www.instagram.com/sadmanshawon/" class="footer__social"><i class="uil uil-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/sadman-shawon-123456789/" target="_blank" class="footer__social"><i
+            class="uil uil-linkedin"></i></a>
+        <a href="https://github.com/sadmanshawon" target="_blank" class="footer__social"><i
+            class="uil uil-github"></i></a>
+      </div>
+      <p class="footer__copyright">© 2023.All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!--=============== SCROLL UP ===============-->
+<a href="" class="scrollUp " id="scroll-up">
+  <i class="uil uil-angle-up scrolling__icon"></i>
+</a>
+  <!--=============== EMAIL JS ===============-->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+
+  <!--=============== MAIN JS ===============-->
+  <script src="app.js"></script>
+</body>
+
+</html>
