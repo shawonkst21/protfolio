@@ -1,22 +1,9 @@
-/*=============== SHOW MENU ===============*/
 
-/*===== MENU SHOW =====*/
-/* Validate if constant exists */
-
-/*===== MENU HIDDEN =====*/
-/* Validate if constant exists */
-
-/*==================== REMOVE MENU MOBILE ====================*/
-
-/*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
-
-/*==================== CHANGE BACKGROUND HEADER ====================*/
 function screollHeader(){
     const header=document.getElementById('header');
     if(this.scrollY>=80)header.classList.add('scroll-header');
     else header.classList.remove('scroll-header');
 }
-
 window.addEventListener('scroll',screollHeader);
 /*==================== SHOW SCROLL UP ====================*/
 function screollUp(){
